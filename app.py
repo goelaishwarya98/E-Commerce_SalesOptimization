@@ -17,8 +17,8 @@ st.set_page_config(
     layout="wide"
 )
 
-RAW_FILE = "data/E-commerce Sales Optimization Engine.xlsx"
-CLEAN_FILE = "data/cleaned_supermarket_data.csv"
+RAW_FILE = "E-commerce Sales Optimization Engine.xlsx"
+CLEAN_FILE = "cleaned_supermarket_data.csv"
 
 @st.cache_data
 def load_raw_data():
